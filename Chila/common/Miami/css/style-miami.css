@@ -1,0 +1,7 @@
+.fotka{
+    width: auto;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(/common/Miami/img/upscale/_129625142_gettyimages-1487990345_upscayl_4x_realesrgan-x4plus-anime.png);
+    background-size: cover;
+    background-position: center;
+}
