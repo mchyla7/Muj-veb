@@ -1,7 +1,22 @@
-.fotka{
-    width: auto;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(/Chila/common/Miami/img/upscale/_129625142_gettyimages-1487990345_upscayl_4x_realesrgan-x4plus-anime.png);
-    background-size: cover;
-    background-position: center;
+*{
+    background-color: rgb(44, 38, 38);
+}
+
+h1{
+    text-align: center;
+    font-size: 175%;
+}
+
+.trategalery{
+    width: 90%;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trat img   {
+    width: 268px;
+    float: right;
+    margin-left: 35.6px;
+
 }
