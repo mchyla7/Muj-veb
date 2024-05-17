@@ -9,12 +9,12 @@
 .fotka{
     width: auto;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(/img/mianfoto.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.457),rgba(0,0,0,0.35)), url(/Chila/img/mianfoto.jpg);
     background-size: cover;
     background-position: center;
 }
 .navbar{
-    background-color: blueviolet;
+    background-color: rgb(15, 1, 1);
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -42,22 +42,6 @@
     margin-right: 25px;
 
 }
-
-.navdiv ul li a::after {
-    content: '';
-    height: 3px;
-    width: 0%;
-    background: wheat;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-
-.navdiv ul li a:hover::after {
-    width: 100%;
-}
-
 
 /*
 .navigace{
