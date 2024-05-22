@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 .fotka{
@@ -10,19 +11,32 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.457),rgba(0,0,0,0.35)), url(/Chila/img/mianfoto.jpg);
     background-size: cover;
     background-position: center;
+    z-index: -2;
+}
+#video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
 .navbar{
     background-color: rgb(15, 1, 1);
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 0 15px;
+    z-index: 2;
 }
 .navdiv{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
 }
 .logo {
-    width: 37%;
+    width: 28%;
     height: auto;
     margin: 19px;
     cursor: pointer
@@ -37,8 +51,27 @@
     color: white;
     font-size: 20px;
     text-transform: uppercase;
-    margin-right: 25px;
+    margin-right: 150px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
 
+}
+
+.navdiv ul li a { /* Animace */
+    background: 
+        linear-gradient(to right, rgba(100, 200, 200, 0), rgba(100, 200, 200, 0)),
+        linear-gradient(to right, #FF2508, #B71A06, #FF2508 /* #B71A06 #FF2508 #F56912 #1D3461, #1F487*/ );
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 500ms;
+}
+
+.navdiv ul li a:hover,.navdiv ul li a:focus {
+  background-size: 0 0.1em, 100% 0.1em;
 }
 
 .clearfix {
@@ -54,21 +87,13 @@
     font-family: "Kanit", sans-serif;
     font-weight: 200;
     font-style: normal;
-
+    font-size: 50px;
+    z-index: 3;
 }
+
 
 
 /*
-.navigace{
-    background: rgb(25, 103, 248);
-    padding: 0 15px;
-}
-
-.navigator{
-    align-items: center;
-    justify-content: space-between;
-}
-
 .logo{
     width: 15%;
     height: auto;
@@ -87,40 +112,4 @@
     width: 100%;
 
 }
-
-.navigator ul li {
-    list-style-type: none;
-    display: inline-flex;
-    margin: 0 20px;
-    position: relative;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 35px;
-
-}
-
-.navigator ul li a{
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    display: inline-block;
-}
-
-.navigator ul li::after{ 
-    content: '';
-    height: 3px;
-    width: 0%;
-    background: wheat;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-
-.navigator ul li:hover::after{
-    width: 100%;
-
-}
-
-
 /*
