@@ -1,22 +1,46 @@
-*{
-    background-color: rgb(44, 38, 38);
+body {
+    background-color: rgb(84, 77, 77);
 }
 
 h1{
     text-align: center;
-    font-size: 175%;
+    font-size: 500%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding-top: 20px;
 }
 
-.trategalery{
-    width: 90%;
-    /* border: 1px solid black; */
-    margin-left: auto;
-    margin-right: auto;
+.trat{
+    width: 33.33%;
+    float: left;
+    padding: 100px;
 }
 
 .trat img   {
-    width: 268px;
+    width: 100%;
     float: right;
     margin-left: 35.6px;
 
+}
+
+.trat h1{
+    font-size: 350%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.trat img{
+    width: 90%;
+    height: 90%; /* better than aspect-ratio in case the image has a height attribute */
+    box-sizing: border-box;
+    transition: .5s;
+    cursor: pointer;
+}
+.trat img:hover{
+    transform: scale(1.1);
+
+}
+.trat img:active{
+    transform: scale(1.2);
 }
