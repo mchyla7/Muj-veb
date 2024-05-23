@@ -38,7 +38,7 @@ h1{
 
 .trat img{
     width: 90%;
-    height: 90%; /* better than aspect-ratio in case the image has a height attribute */
+    height: 90%;
     box-sizing: border-box;
     transition: .5s;
     cursor: pointer;
