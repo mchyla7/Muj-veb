@@ -44,14 +44,57 @@ html {
     align-items: center;
 }
 .kolcotText {
-    hyphens: auto;
     margin: 0.75em;
     text-align: center;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 .sekce1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0,0,0,0.35)), url(/chila/common/miami/img/upscale/_129625142_gettyimages-1487990345_upscayl_4x_realesrgan-x4plus-anime.png);
+    background-color: #157588;
     background-size: cover;
     background-position: center;
     width: auto;
     height: 100vh;
+}
+.sekce1 .texty{
+    padding: 100px;
+}
+
+.sekce1 .texty h1{
+    font-size: 175px;
+    color: white;
+    font-family: "Caveat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style:  bold;
+    padding-top: 100px;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.sekce1 .texty p{
+    font-size: 22px;
+    color: white;
+    padding-top: 100px;
+    line-height: 1.2;
+    margin: 0;
+    text-align: justify;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.sekce1 .texty blockquote{
+    font-size: 30px;
+    color: white;
+    padding-top: 100px;
+    line-height: 1.2;
+    margin: 0;
+    text-align: justify;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
