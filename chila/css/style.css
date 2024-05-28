@@ -105,6 +105,26 @@ footer {
     font-style: normal;
     font-size: 25px;
 }
+.kolco{
+    background: #000000c5;
+    border-radius: 50%;
+    color: #ffffff;
+    height: 8.4em;
+    position: relative;
+    width: 12.4em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kolcotText {
+    margin: 0.75em;
+    text-align: center;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
 
 /*
 .logo{
