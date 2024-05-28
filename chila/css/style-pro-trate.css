@@ -22,9 +22,7 @@ html {
     font-size: 300px;
     color: white;
     font-family: "Caveat", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 700;
-    font-style:  bold;
     padding-top: 225px;
     line-height: 1.2;
     margin: 0;
@@ -43,9 +41,7 @@ html {
     font-size: 175px;
     color: white;
     font-family: "Caveat", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 700;
-    font-style:  bold;
     padding-top: 100px;
     line-height: 1.2;
     margin: 0;
@@ -59,7 +55,6 @@ html {
     margin: 0;
     text-align: justify;
     font-family: "Reddit Mono", monospace;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
@@ -71,7 +66,6 @@ html {
     margin: 0;
     text-align: justify;
     font-family: "Reddit Mono", monospace;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }

@@ -1,6 +1,7 @@
 .fotka{
-    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url();
+    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(../img/YMC-New-Track-A.avif);
 }
 .sekce1{
-    background-color:;
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.799) 100%);
 }
