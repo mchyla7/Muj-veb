@@ -1,6 +1,36 @@
+body{
+    background-color: #157588;
+    z-index: 0;
+}
+
 .fotka{
     background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(/chila/common/miami/img/upscale/_129625142_gettyimages-1487990345_upscayl_4x_realesrgan-x4plus-anime.png);
+    z-index: 1;
 }
 .sekce1{
     background-color: #157588;
+}
+.zajimavosti{
+    background-color: #157588;
+}
+
+.zajimavosti ul{
+    list-style-type: circle;
+    margin-right: 20px;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.zajimavosti h1{
+    font-size: 175px;
+    color: white;
+    font-family: "Caveat", sans-serif;
+    font-weight: 700;
+    padding-top: 100px;
+    line-height: 1.2;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
 }

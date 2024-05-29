@@ -1,3 +1,8 @@
+body{
+    background-color: #A6A756;
+    z-index: 0;
+}
+
 .fotka{
     background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(../img/image.jpeg);
 }
