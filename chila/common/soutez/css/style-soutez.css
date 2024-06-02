@@ -1,5 +1,6 @@
 .fotka{
     background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(../img/46126902471_632e261ca6_k.jpg);
+    padding: 20px;
 }
 
 table {

@@ -1,0 +1,1 @@
+Naučil jsem se tvořit jednotlivé animace pro různé obrázky a texty funkcí transition. Jak fungují a časování animací. Také jsem se naučil používat funkci linear-gradiant které vytváří přechod barev.  
